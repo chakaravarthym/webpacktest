@@ -8,7 +8,6 @@ module.exports = {
     entry: path.join(__dirname, 'src', 'index.js'),
     output: {
       path: path.resolve(__dirname, 'dist'),
-      publicPath: '/',
     },
     module: {
       rules: [
@@ -32,7 +31,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
                 name: '[name].[ext]',
-                outputPath: '/'
+                outputPath: 'images/'
               },
           },
         },
