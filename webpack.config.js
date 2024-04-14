@@ -30,6 +30,10 @@ module.exports = {
           test: /\.(png|jp(e*)g|svg|gif)$/,
           use: {
             loader: 'file-loader',
+            options: {
+                name: '[name].[ext]',
+                outputPath: '/'
+              },
           },
         },
       ],
@@ -42,8 +46,5 @@ module.exports = {
         template: path.join(__dirname, 'public', 'index.html'),
       }),
     ],
-    devServer: {
-      port: '3000',
-      historyApiFallback: true,
-    },
   };
+  
