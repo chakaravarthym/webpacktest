@@ -1,5 +1,44 @@
-.header_title {
+#root {
+    width: 720px;
+    margin: 0 auto;
+}
+#root img {
+    width: 100%;
+}
+#root .header_title {
     font-size:  30px;
     color: red;
     font-weight: bold;
+}
+#root form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+}
+#root label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+#root label div {
+    width: calc(1/2*100% - (1 - 1/2)*10px);
+}
+#root label div input {
+    width: 100%;
+}
+#root label p {
+    margin: 0;
+}
+#root form input[type="submit"] {
+    width: 20%;
+    font-size: 15px;
+    padding: 8px;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
 }
