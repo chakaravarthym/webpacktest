@@ -1,13 +1,13 @@
 #root {
     width: 720px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 #root img {
     width: 100%;
 }
-#root .header_title {
+#root .header_title h1 {
     font-size:  30px;
-    color: red;
+    color: black;
     font-weight: bold;
 }
 #root form {
