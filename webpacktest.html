@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8" />
     <title>title</title>
+    <style>
+        .wrapper {
+            width: 1024px;
+            margin: 0 auto;
+        }
+        .header {
+            padding: 40px;
+            text-align: center;
+            background-color: burlywood;
+            color: black;
+        }
+        .footer {
+            padding: 40px;
+            text-align: center;
+            background-color: burlywood;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <div id="root"></div>
-    <script defer src="https://chakaravarthym.github.io/webpacktest/dist/main.js"></script>
+    <div class="wrapper">
+        <div class="header">
+            Headear
+        </div>
+        <div id="root"></div>
+        <script defer src="https://chakaravarthym.github.io/webpacktest/dist/main.js"></script>
+        <div class="footer">
+            Footer
+        </div>
+    </div>
 </body>
 </html>
