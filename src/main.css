@@ -1,14 +1,16 @@
 #root {
-    width: 720px;
+    width: 1024px;
     margin: 20px auto;
 }
 #root img {
     width: 100%;
 }
 #root .header_title h1 {
-    font-size:  30px;
-    color: black;
+    font-size: 30px;
+    color: #5a1f06;
     font-weight: bold;
+    margin: 20px;
+    text-align: center;
 }
 #root form {
     display: flex;
@@ -33,12 +35,33 @@
 #root label p {
     margin: 0;
 }
+.form-submit {
+    text-align: center;
+}
 #root form input[type="submit"] {
     width: 20%;
-    font-size: 15px;
-    padding: 8px;
-    background: green;
-    color: #fff;
-    font-weight: bold;
-    border: 0;
+    font-family: AllTogetherSerif, "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 999rem;
+    padding: 1rem 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #ffd200;
+    border: none;
+    color: rgb(90, 31, 6);
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 0;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+#root .banner {
+    background-color: #ffd200;
+    margin-bottom: 20px;
 }

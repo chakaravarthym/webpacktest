@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img1 from './hello.jpeg';
+import img1 from './hello.webp';
 import './main.css';
 export default function App() {
   const [formData, setFormData] = useState({
@@ -45,8 +45,11 @@ export default function App() {
   return (
     <div>
       <div className="header_title">
-        <h1>React App webpack - 8</h1>
-        <div>
+        <h1>
+          M&M’S is a chocolate brand on a mission. We believe in championing the
+          power of fun to create a world where everyone feels they belong.
+        </h1>
+        <div className="banner">
           <img src={img1} />
         </div>
       </div>
@@ -79,7 +82,7 @@ export default function App() {
             <p style={{ color: 'red' }}>{formData.errors.password}</p>
           )}
         </label>
-        <div>
+        <div className="form-submit">
           <input type="submit" value="Submit" />
         </div>
       </form>
