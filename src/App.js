@@ -45,7 +45,7 @@ export default function App() {
   return (
     <div>
       <div className="header_title">
-        <h1>React App webpack</h1>
+        <h1>React App webpack - 1</h1>
         <div>
           <img src={img1} />
         </div>
